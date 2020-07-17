@@ -4,10 +4,9 @@ from termcolor import colored
 from essential_generators import DocumentGenerator
 from random_username.generate import generate_username
 from time import sleep
-import itertools
 import random
 
-colors = ['red','green','yellow','blue','magenta','cyan','white']
+colors = ['red','green','yellow','blue','magenta','cyan']
 usernames = generate_username(25)
 gen = DocumentGenerator()
 short_comments = ['LOL', 'true', 'hahaha', 'same', 'F', 'rip', 'the what???', 'fuck!!', '!!!!']
