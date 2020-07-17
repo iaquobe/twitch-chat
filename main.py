@@ -4,9 +4,7 @@ from termcolor import colored
 from essential_generators import DocumentGenerator
 from random_username.generate import generate_username
 from time import sleep
-import curses
 import random
-
 
 colors = ['red','green','yellow','blue','magenta','cyan']
 usernames = generate_username(25)
